@@ -66,9 +66,6 @@ def maxSubArraySum(arr, l, h):
                maxCrossingSum(arr, l, m, h))
  
  
-# Driver Code
-arr = [2, 3, 4, 5, 7]
-n = len(arr)
 
 lena=len(a)
 lenb= len(b)
