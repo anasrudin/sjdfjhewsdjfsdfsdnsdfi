@@ -1,5 +1,12 @@
 # Knapsack Problem 
 # for array
+# Algorithm:-
+
+# 1.Calculate thr ratio(value/weight) for each item.
+# 2.Sort all the items in decreasing order of the ratio.
+# 3.Initialize res =0, curr_cap = given_cap.
+# 4.Do the following for every item “i” in the sorted order:
+# 5.Return res.
 
 class ItemValue:
 	def __init__(self, item, value, ind):

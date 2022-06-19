@@ -16,7 +16,7 @@ def cutRod(price, n):
         val[i] = max_val
   
     return val[n]
-  
+
 # Driver program to test above functions
 arr = [1, 5, 8, 9, 10, 17, 17, 20]
 size = len(arr)
